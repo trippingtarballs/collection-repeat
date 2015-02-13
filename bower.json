@@ -1,0 +1,8 @@
+{
+  "name": "collection-repeat",
+  "private": "true",
+  "dependencies": {
+    "ionic": "driftyco/ionic-bower#master",
+    "font-awesome": "~4.3.0"
+  }
+}

@@ -24,8 +24,8 @@
 
             var init = function () {
                 var promises = [];
-                for (var i = 0; i < 5; i++) {
-                    promises.push(add(5));
+                for (var i = 0; i < 10; i++) {
+                    promises.push(add(100));
                 }
                 return $q.all(promises);
             };
@@ -67,6 +67,15 @@
             }, function (item) {
                 vm.total = item;
             }, true);
+        })
+        .run(function ($ionicPlatform) {
+            $ionicPlatform.ready(function () {
+                if (window.cordova && window.cordova.plugins.Keyboard) {
+                    cordova.plugins.Keyboard.hideKeyboardAccessoryBar(true);
+                }
+                if (window.StatusBar) {
+                    StatusBar.styleDefault();
+                }
+            });
         });
-
 })();

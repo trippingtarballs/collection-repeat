@@ -1,0 +1,8 @@
+{
+  "name": "collection-repeat",
+  "app_id": "co.uk.daringdevelopers.collection-repeat",
+  "package_name": "co.uk.daringdevelopers.collection-repeat",
+  "gulpStartupTasks": [
+    "watch"
+  ]
+}
