@@ -3,6 +3,7 @@
 
 # auto-generated folders
 bower_components/
+engine/
 platforms/
 plugins/
 node_modules/
