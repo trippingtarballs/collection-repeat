@@ -1,5 +1,7 @@
 # Collection Repeat
 
+For a working example of how to use collection-repeat, [http://codepen.io/rbose85/full/gbvLLx/](http://codepen.io/rbose85/full/gbvLLx/).
+
 Building on the [CodePen](http://codepen.io/ionic/pen/mFygh) example, this is a simple demo of how to use the custom directive `collection-repeat` from the [Ionic Framework](http://ionicframework.com).
 
 The data being used to populate this demo is coming from [randomuser.me](http://randomuser.me).
